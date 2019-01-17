@@ -1,0 +1,1 @@
+python create_coco_tf_record.py --train_annotations_file=test-results/labelbox2coco_1.json --val_annotations_file=test-results/labelbox2coco_1.json --testdev_annotations_file=test-results/labelbox2coco_1.json   --train_image_dir=images/train --val_image_dir=images/val --test_image_dir=images/test --output_dir=data
