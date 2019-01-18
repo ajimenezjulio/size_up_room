@@ -1,5 +1,5 @@
 # Sizing Room
-Estimate dimensions of a room with a **single 2-D image** is an extremely difficult challenge due to the lack of spatial information. However the results obtained in this approach were **very satisfactory** and through improvements of the model, it is possible to achieve it. The approach  has the next 4 steps:
+Estimate dimensions of a room with a **single 2-D image** is an extremely difficult challenge due to the lack of spatial information. However the results obtained in this approach were **very satisfactory** and through improvements of the model, it is possible to achieve it. The approach  consists of the next 4 steps:
 
 1. Computation of Vanishing points
 2. Wall segmentation using the [ade20k](http://sceneparsing.csail.mit.edu/) dataset and following the approach by [hellochick](https://github.com/hellochick/Indoor-segmentation)
